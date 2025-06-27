@@ -78,7 +78,7 @@ p{
 .task-form {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: self-end;
 }
 
 .task-form input[type="text"] {
@@ -86,17 +86,20 @@ p{
     border: 1px solid #ccc;
     border-radius: 5px 0 0 5px;
     font-size: 16px;
+    margin-bottom: 1px;
 }
 
 .add-btn {
-    padding: 10px 20px;
-    width:30%;
+    padding: 10px;
+    width:40%;
     background-color: #28a745;
     color: white;
-    border: none;
+    border: 1px solid #28a745;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 2px;
+
 }
 
 .add-btn:hover {

@@ -5,9 +5,9 @@ from .views import home,signup,signin
 
 
 urlpatterns = [  
-    path('', signup),
+    path('signup/', signup),
     path('', home),
-    path('', signin),
+    path('signin/', signin),
     path('admin/', admin.site.urls),
 ]
 
